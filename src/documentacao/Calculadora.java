@@ -13,7 +13,7 @@ public class Calculadora {
      *
      * @param numero1
      * @param numero2
-     * @return
+     * @return valor da divisao entre dois numeros
      * @author Victor Ciechovicz
      */
     static int dividir(int numero1, int numero2) {
