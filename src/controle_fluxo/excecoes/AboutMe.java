@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Excecao {
+public class AboutMe {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
@@ -54,7 +54,7 @@ public class Excecao {
 
                 } catch (InputMismatchException e) {
                     // Captura a exceção se a entrada não for um número
-                    System.out.println("Entrada inválida. Digite apenas números.");
+                    System.err.println("Entrada inválida. Digite apenas números.");
                     scanner.next(); // Limpa o buffer do scanner para evitar loop infinito
                 }
             } while (!entradaValida);
