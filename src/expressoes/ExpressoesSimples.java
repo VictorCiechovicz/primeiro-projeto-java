@@ -15,6 +15,8 @@ public class ExpressoesSimples {
         String impresso = String.format("Mat.: %05d Nome.: %-30.30s Sal.: %,.2f Admissao.: %td/%<tm/%<ty", matricula, nome, salario, admissao);
         System.out.println(impresso);
 
+        System.out.printf("O valor é: %.2f", 5.6789);
+
         //Espesificadores s = string, d = numero inteiro, f = numero com ponto flutuante, t = para datas tempo
         //%05d coloca 5 zeros antes do numero
         //%-30.30s delimita maximo e minímo de 30 caracters para esse campo
