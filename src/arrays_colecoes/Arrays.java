@@ -1,4 +1,4 @@
-package arrays;
+package arrays_colecoes;
 
 public class Arrays {
 
